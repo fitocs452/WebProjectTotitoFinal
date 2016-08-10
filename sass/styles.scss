@@ -1,0 +1,31 @@
+$grid-element-size: 200px;
+
+.finished-container {
+  display: none;
+  left: 10px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+}
+
+#grid {
+  width: 650px;
+}
+
+.grid-element {
+  background-color: black;
+  width: $grid-element-size;
+  height: $grid-element-size;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.grid-content-style {
+  color: white;
+  font-weight: bold;
+  font-size: $grid-element-size;
+  line-height: $grid-element-size;
+  text-align: center;
+}
